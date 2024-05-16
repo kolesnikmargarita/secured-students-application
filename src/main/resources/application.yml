@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: secured-students-application
+  datasource:
+    url: jdbc:postgresql://localhost:5432/secured_students
+    username: postgres
+    password: Umbrella:)
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+app:
+  jwt:
+    expirationMs: 604800000
+    secret: defaultdefaultdefaultdefaultdefaultdefault
